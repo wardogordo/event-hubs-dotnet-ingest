@@ -11,7 +11,8 @@ namespace SendSampleData
     class Program
     {
         const string eventHubName = "test-hub";
-        const string connectionString = @"<YourConnectionString>";
+        // const string connectionString = @"<YourConnectionString>"; //
+        const string connectionString = @"Endpoint=sb://wards-first-event-hub-namespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=QDcCd2pHxIALZN8COVEnK7dgUO2wcNDIHILFgbmKa2I=";
 
         public static async Task Main(string[] args)
         {
